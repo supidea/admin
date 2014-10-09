@@ -1,0 +1,38 @@
+/*@charset "utf8";*/
+
+/**
+ +------------------------------------------------------------------------------
+ * 默认样式重写
+ +------------------------------------------------------------------------------
+ */
+body, dl,dt, dd, h1, h2, h3, h4, h5, h6, p, form{margin:0;}   
+ol,li,ul,textarea,input{margin:0; padding:0;}
+ul,li,ol{list-style: none}
+a{cursor:pointer;text-decoration:none;outline:none;}
+a:hover{ text-decoration:none;}
+img{border:0;display: block;}
+button,input,textarea,select,option{font-family:inherit; font-size:inherit; font-style:inherit; font-weight:inherit; outline:none;}
+button,input,select,textarea{margin: 0;font-size: 100%;vertical-align: middle;}
+html{
+    _background-image:url(about:blank);
+    _background-attachment:fixed;
+}
+/**
+ +------------------------------------------------------------------------------
+ * Public Class
+ +------------------------------------------------------------------------------
+ */
+body{font:12px/1.5 tahoma,arial,"Microsoft YaHei",\5fae\8f6f\96c5\9ed1,\5b8b\4f53;}
+.cf:after {content:" "; display:block; height:0; clear:both; visibility:hidden; }
+.cf{*zoom:1;}
+.cl{ clear:both;}/* 清除浮动*/
+.fl{ float: left;} 
+.fr{ float: right; } 
+.db{ display:block;}
+.dn{ display: none;}
+.dib{ display: inline-block;}
+.tal{ text-align:left} 
+.tac{ text-align: center;}
+.tar{ text-align:right;}
+.ovh{ overflow: hidden;}
+.por{ position: relative;}

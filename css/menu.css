@@ -1,0 +1,23 @@
+.menu {
+  padding: 10px 20px;
+}
+.menu .menubox h2 {
+  font-size: 12px;
+  line-height: 32px;
+  padding-left: 25px;
+  background: url("../images/menuBg.png") no-repeat 0 -118px;
+}
+.menu .menubox ul li a {
+  font-size: 12px;
+  line-height: 25px;
+  color: #bfbfbf;
+  display: block;
+  -webkit-transition: color .3s ease;
+  -moz-transition: color .3s ease;
+  -ms-transition: color .3s ease;
+  transition: color .3s ease;
+  padding-left: 25px;
+}
+.menu .menubox ul li a:hover {
+  color: #333;
+}

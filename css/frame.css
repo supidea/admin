@@ -1,0 +1,54 @@
+.header {
+  height: 60px;
+  background: #509ee1;
+  border-bottom: 1px solid #1b5983;
+}
+.side {
+  width: 218px;
+  position: absolute;
+  left: 0;
+  top: 61px;
+  bottom: 0;
+  border-right: 1px solid #f2f2f2;
+  overflow: hidden;
+}
+.side iframe {
+  border: 0 none;
+  width: 100%;
+  height: 99.9%;
+  overflow: hidden;
+}
+.header {
+  position: relative;
+}
+.header .logo {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  background: url("../images/logo.png") no-repeat;
+  left: 10px;
+  bottom: -10px;
+}
+.header .user {
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  left: 90px;
+  bottom: 10px;
+}
+.user {
+  position: absolute;
+}
+.main {
+  position: absolute;
+  top: 61px;
+  left: 219px;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.main iframe {
+  border: 0 none;
+  width: 100%;
+  height: 99.9%;
+}

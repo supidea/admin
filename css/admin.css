@@ -1,0 +1,120 @@
+a {
+  color: #3d566d;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-button:vertical {
+  display: none;
+}
+::-webkit-scrollbar-track:vertical {
+  background: 0;
+}
+::-webkit-scrollbar-track-piece {
+  background: #f6f6f6;
+}
+::-webkit-scrollbar-thumb:vertical {
+  background: #d0d0d0;
+}
+::-webkit-scrollbar-thumb:vertical:hover {
+  background: #3b3b3b;
+}
+::-webkit-scrollbar-corner:vertical {
+  background: #535353;
+}
+::-webkit-scrollbar-resizer:vertical {
+  background: #ff6e00;
+}
+.container {
+  padding: 20px;
+}
+.toptoolbar {
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #dadada;
+}
+.toptoolbar .title {
+  float: left;
+  border-bottom: 3px solid #fdab36;
+  font-size: 16px;
+  line-height: 39px;
+}
+.dataTable a:hover {
+  text-decoration: underline;
+}
+.dataTable th,
+.dataTable td {
+  text-align: left;
+  padding: 10px 0;
+  border-bottom: 1px solid #ebebeb;
+}
+.dataTable td:last-child,
+.dataTable th:last-child {
+  text-align: right;
+}
+.dataTable tbody .row {
+  background: #fff;
+}
+.dataTable tbody .row:hover {
+  background: #f8f8f8;
+}
+.dataTable .action span {
+  padding: 0 8px;
+}
+.dataTable .action a {
+  text-decoration: underline;
+}
+.formTable td {
+  padding: 10px 0;
+}
+.formTable td:first-child {
+  text-align: right;
+}
+.formTable tr:nth-child(odd) {
+  background: #fafafa;
+}
+.formTable .select {
+  height: 34px;
+  border: 1px solid #ebebeb;
+  width: 312px;
+}
+.formTable .ipt-txt {
+  padding: 5px;
+  height: 20px;
+  line-height: 20px;
+  border: 1px solid #ebebeb;
+  width: 300px;
+}
+.formTable .con-txt {
+  padding: 5px;
+  border: 1px solid #ebebeb;
+  width: 660px;
+  height: 300px;
+}
+.bottomtoolbar {
+  line-height: 50px;
+  height: 50px;
+}
+.bottomtoolbar .action {
+  float: left;
+}
+.bottomtoolbar .action span {
+  color: #999;
+}
+.bottomtoolbar .action a {
+  text-decoration: underline;
+}
+.bottomtoolbar .btn {
+  float: right;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+  padding: 0 12px;
+  background: #3d566d;
+  font-size: 13px;
+  color: #fff;
+}
+.bottomtoolbar .btn:hover {
+  background: #4f6880;
+}

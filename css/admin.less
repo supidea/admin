@@ -1,0 +1,119 @@
+a{
+  color: #3d566d;
+}
+
+//定义新型浏览器特性-滚动条美化
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-button:vertical{display:none}
+::-webkit-scrollbar-track:vertical{background:000}
+::-webkit-scrollbar-track-piece{background:#f6f6f6}
+::-webkit-scrollbar-thumb:vertical{background:#d0d0d0;}
+::-webkit-scrollbar-thumb:vertical:hover{background:#3B3B3B}
+::-webkit-scrollbar-corner:vertical{background:#535353}
+::-webkit-scrollbar-resizer:vertical{background:#FF6E00}
+
+//管理页面
+
+.container{
+  padding: 20px;
+}
+.toptoolbar{
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #dadada;
+  .title{
+    float: left;
+    border-bottom: 3px solid #fdab36;
+    font-size: 16px;
+    line-height: 39px;
+  }
+}
+.dataTable{
+  a:hover{
+    text-decoration: underline;
+  }
+  th,td{
+    text-align: left;
+    padding: 10px 0;
+    border-bottom: 1px solid #ebebeb;
+  }
+  td:last-child,th:last-child{
+    text-align: right;
+  }
+  tbody .row{
+    background: #fff;
+  }
+  tbody .row:hover{
+    background: #f8f8f8;
+  }
+  .action{
+    span{
+      padding: 0 8px;
+    }
+    a{
+      text-decoration: underline;
+    }
+  }
+}
+
+.formTable{
+  td{
+    padding: 10px 0;
+  }
+  td:first-child{
+    text-align: right;
+  }
+  tr:nth-child(odd){
+    background: #fafafa;
+  }
+  .select{
+    height: 34px;
+    border: 1px solid #ebebeb;
+    width: 312px;
+  }
+  .ipt-txt{
+    padding: 5px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #ebebeb;
+    width: 300px;
+  }
+  .con-txt{
+    padding: 5px;
+    border: 1px solid #ebebeb;
+    width: 660px;
+    height: 300px;
+  }
+}
+
+
+.bottomtoolbar{
+  line-height: 50px;
+  height: 50px;
+  .action{
+    float: left;
+    span{
+      color: #999;
+    }
+    a{
+      text-decoration: underline;
+    }
+  }
+  .btn{
+    float: right;
+    height:30px;
+    line-height:30px;
+    margin-top:10px;
+    padding:0 12px;
+    background:#3d566d;
+    font-size:13px;
+    color:#fff;
+  }
+  .btn:hover{
+    background: #4f6880;
+  }
+}
+
+
+
+
